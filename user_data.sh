@@ -23,5 +23,3 @@ c.NotebookApp.open_browser = False
 
 c.NotebookApp.port = {notebook_port}
 EOF
-
-su -l $USER -c 'tmux new -s ML -d "jupyter notebook"'
